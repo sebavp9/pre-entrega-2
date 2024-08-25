@@ -1,0 +1,112 @@
+/* imagen principal en index */
+.imagen-principal{
+    background-image: url(/Images/foto-iglesia.jpg);
+    background-size: cover;
+    height: 600px;}
+
+/* titulos,subtitulos sombre imagen principal */
+.titulo-subtitulo {
+    position: absolute;
+    top: 350px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color:white
+}
+
+
+
+/* imagenes de bienvenida en index */
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(6,220px);
+    grid-template-columns: repeat(9,1fr);
+
+column-gap: 5px;}
+
+
+.first-item{
+    
+    grid-column:7/10 ;/* desde que linea de columna hasta que linea puede ir el primer item (independiente de las columnas que cree en el grid) */
+    grid-row:1/4 ;
+    padding: 30px}
+
+.second-item{
+    padding: 30px;
+    grid-column:4/7 ;/* desde que linea de columna hasta que linea puede ir el primer item (independiente de las columnas que cree en el grid) */
+    grid-row:1/4 ;}
+
+
+/* ajustar ancho y alto de imagenes usadas en div*/
+div img{
+    width: 100%;
+    height: 100%;
+}
+
+.texto-Bienvenida{
+    position: relative;
+    top: 50%; /* se mueve hacia abajo porque estoy agregando top */
+    left: 79%; /* se mueve hacia abajo porque estoy agregando "espacio" a la izquierda */
+
+}
+
+.icono-wsp{
+    height: 80px;
+    position: fixed;/* fijar el logo para que nos siga cuando scroleamos */
+   right: 40px;
+    bottom: 50px;
+}
+
+
+.formulario{
+    position: relative;
+    top: 200px; 
+    left: 30%;
+}
+
+/* pagina de cafeteria */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-left {
+    flex: 1;
+}
+
+.image-right {
+    flex: 1;
+    text-align: right;
+}
+
+.image-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-class{
+    background-color: rgb(255, 255, 255);
+    background-image: url('/images/fondo-palafitos.png');
+    background-size: cover;
+    height:600px  
+
+}
+
+.logo{
+    width: 120px;
+}
+
+
+.titulo-cafeteria {
+    position: absolute;
+    top: 350px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color:white
+}
