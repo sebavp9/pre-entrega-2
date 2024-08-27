@@ -1,6 +1,6 @@
 /* imagen principal en index */
 .imagen-principal{
-    background-image: url("/Images/foto-iglesia.jpg");
+    background-image: url("./Images/foto-iglesia.jpg");
     background-size: cover;
     height: 600px;}
 
