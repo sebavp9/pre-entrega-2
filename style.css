@@ -90,7 +90,7 @@ div img{
 
 .header-class{
     background-color: rgb(255, 255, 255);
-    background-image: url("/Images/fondo-palafitos.png");
+    background-image: url("./Images/fondo-palafitos.png");
     background-size: cover;
     height:600px  
 
